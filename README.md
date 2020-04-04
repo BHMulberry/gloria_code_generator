@@ -33,12 +33,12 @@
   使用git克隆或者直接下载zip即可
 
 	```
-
+git@github.com:BHMulberry/gloria_code_generator.git
 	```
 
 * **无python3环境**
 
-  下载release里的exe版本，或者[下载安装python](https://www.python.org/)，打开新世界的大门
+  下载[release里的exe版本](https://github.com/BHMulberry/gloria_code_generator/releases)，或者[下载安装python](https://www.python.org/)，打开新世界的大门
 
 ## 使用
 
@@ -58,7 +58,7 @@
 
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
-	```shell
+	```
 python generate_gloria_task.py
 	```
 
@@ -76,7 +76,7 @@ reducer生成器目前仅支持在过滤器中增加fetch操作，将抓取到�
 
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
-	```shell
+	```
 python generate_gloria_reducer.py
 	```
 
