@@ -1,0 +1,10 @@
+;(async () => {
+  const { cheerio } = await importScripts('gloria-utils');
+  const html = await fetch('${WEB_PAGE}').then(resp => resp.text());
+  const ${DOLLAR_CHAR} = cheerio.load(html);
+  return ${DOLLAR_CHAR}('${TARGET_DIR}').map((i, el) => ({
+    message: ${DOLLAR_CHAR}(el).find('a').text().trim(),
+    url: '${URL_ROOT}' + ${DOLLAR_CHAR}(el).find('a').attr('href'),
+    iconUrl: '${ICON_URL}',
+  })).get().slice(0,5);
+})().then(commit);
