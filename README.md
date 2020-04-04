@@ -59,7 +59,7 @@ git@github.com:BHMulberry/gloria_code_generator.git
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
 ```
-	python generate_gloria_task.py
+python generate_gloria_task.py
 ```
 
 * **无python3环境**
@@ -77,7 +77,7 @@ reducer生成器目前仅支持在过滤器中增加fetch操作，将抓取到�
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
 ```
-	python generate_gloria_reducer.py
+python generate_gloria_reducer.py
 ```
 
 * **无python3环境**
@@ -87,7 +87,7 @@ reducer生成器目前仅支持在过滤器中增加fetch操作，将抓取到�
 ## 相关仓库
 
 * [Gloria](https://github.com/BlackGlory/Gloria/) - 本项目使用到的Gloria插件
-* [Node-ServerChan](https://github.com/xfoxfu/node-ServerChan) - 本项目用于推送至微信端使用的[Server酱](http://sc.ftqq.com/2.version)的Node.js SDK
+* [Node-ServerChan](https://github.com/xfoxfu/node-ServerChan) - 本项目用于推送至微信端使用的[Server酱](http://sc.ftqq.com)的Node.js SDK
 
 ## 维护者
 
