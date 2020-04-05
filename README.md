@@ -46,13 +46,13 @@ git@github.com:BHMulberry/gloria_code_generator.git
 
 目前版本的task生成器只支持基本的通知，比如抓取某一通知栏内的通知。使用task生成器生成task代码需要确定以下几个变量（这里以抓取[中国地震局](https://www.cea.gov.cn/cea/xwzx/369242/index.html)页面信息播报栏为例）：
 
-`WEB_PAGE`: 目标页面的地址，即**'https://www.cea.gov.cn/cea/xwzx/369242/index.html'**
+`WEB_PAGE`: 目标页面的地址，即`'https://www.cea.gov.cn/cea/xwzx/369242/index.html'`
 
-`TARGET_DIR`: 目标通知的盒子模型位置，使用浏览器的审查元素功能即可看到，这里为**'.listNews.pagelib ul li'**
+`TARGET_DIR`: 目标通知的盒子模型位置，使用浏览器的审查元素功能即可看到，这里为`'.listNews.pagelib ul li'`
 
-`URL_ROOT`: 目标通知链接的前缀，在审查元素中如果看到目标通知的链接是不完整的，那么需要在获取的每个目标链接处补上前缀，如果不确定前缀，可以直接点进去看一个目标通知的链接地址就可以知道了。这里为**https://www.cea.gov.cn**（如果目标通知的链接是完整的，这里设置为空''）
+`URL_ROOT`: 目标通知链接的前缀，在审查元素中如果看到目标通知的链接是不完整的，那么需要在获取的每个目标链接处补上前缀，如果不确定前缀，可以直接点进去看一个目标通知的链接地址就可以知道了。这里为`https://www.cea.gov.cn`（如果目标通知的链接是完整的，这里设置为空''）
 
-`ICON_URL`: 目标通知的图标，可以静态地选取通知页的logo（直接找到logo图片查看其地址填在这里即可），也可以动态地选取每条通知自带的图片链接，也可以不填（Gloria会发送带默认图标的通知）。这里使用中国地震局的静态logo作为通知的图标，即**'https://pic1.zhimg.com/50/v2-c66d7a89ec2cae81fd27e021111129f7_qhd.jpg'**
+`ICON_URL`: 目标通知的图标，可以静态地选取通知页的logo（直接找到logo图片查看其地址填在这里即可），也可以动态地选取每条通知自带的图片链接，也可以不填（Gloria会发送带默认图标的通知）。这里使用中国地震局的静态logo作为通知的图标，即`'https://pic1.zhimg.com/50/v2-c66d7a89ec2cae81fd27e021111129f7_qhd.jpg'`
 
 * **有python3环境**
 
