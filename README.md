@@ -59,15 +59,13 @@ git@github.com:BHMulberry/gloria_code_generator.git
 
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
-```
-python generate_gloria_task.py
-```
+  ```python generate_gloria_task.py```
 
 * **无python3环境**
 
   根据exe的提示一步步输入各变量值即可（也可粘贴）
 
-生成代码后，使用记事本或者其他软件查看文本，将其全部复制，在【Gloria - 高级 - 测试任务代码】处粘贴生成的代码，点击测试按钮进行测试，Chrome会进行测试的通知推送，如果能收到目标通知，即为成功。测试成功后在【Gloria - 任务 - 右下角加号】处粘贴代码，点击下一步，设置好定时执行的周期即可。
+  生成代码后，使用记事本或者其他软件查看文本，将其全部复制，在【Gloria - 高级 - 测试任务代码】处粘贴生成的代码，点击测试按钮进行测试，Chrome  会进行测试的通知推送，如果能收到目标通知，即为成功。测试成功后在【Gloria - 任务 - 右下角加号】处粘贴代码，点击下一步，设置好定时执行的周期即可。
 
 ### reducer生成器
 
@@ -77,9 +75,7 @@ reducer生成器目前仅支持在过滤器中增加fetch操作，将抓取到�
 
   修改代码中的各个变量值以及保存的文件名后在命令行处执行
 
-```
-python generate_gloria_reducer.py
-```
+  ```python generate_gloria_reducer.py```
 
 * **无python3环境**
 
