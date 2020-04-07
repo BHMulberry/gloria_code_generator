@@ -2,7 +2,7 @@
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-[简体中文](./readme.md) | English
+[简体中文](./README.md) | English
 
 [Gloria](gloria.pub) is a **programmable** website notification aggregator on **Chrome**, which can regularly grab new content on the website through a custom code to pop up notification reminders. This project is intended to further facilitate users (including users with poor coding skills) to use Gloria for customized information aggregation and capture. Using the Gloria plug-in can save time for page-by-page access to view information. Also, running the program on Chrome with cookies can save the trouble of writing crawlers for each page. Using this project, you can easily generate Gloria tasks and filters, and achieve 0 programming costs to deploy information aggregation and crawling services. 
 
