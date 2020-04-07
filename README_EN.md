@@ -14,7 +14,7 @@ At present, two generators are designed:: ** ordinary task generator ** and ** r
 - [Install](#install)
 - [Usage](#usage)
 - [TODO](#TODO)
-- [Relative Efforts](#Relative Efforts)
+- [Relative Efforts](#RelativeEfforts)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -73,10 +73,10 @@ After generating the code, use Notepad or other software to view the text, copy 
 * Added regular string filtering function in reducer template
 * More service providers' multi-device synchronization API template support
 
-## Relative Efforts
+## RelativeEfforts
 
 * [Gloria](https://github.com/BlackGlory/Gloria/) - Gloria plugin used in this project
-* [Node-ServerChan](https://github.com/xfoxfu/node-ServerChan) - [ServerChan] (http://sc.ftqq.com) Node.js SDK, which is used in this project for pushing notifications to WeChat. 
+* [Node-ServerChan](https://github.com/xfoxfu/node-ServerChan) - [ServerChan](http://sc.ftqq.com) Node.js SDK, which is used in this project for pushing notifications to WeChat. 
 
 ## Maintainers
 
